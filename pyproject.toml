@@ -7,7 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
+dotenv = "^0.9.9"
 
+
+[tool.poetry.group.lint.dependencies]
+black = "^25.1.0"
+mypy = "^1.16.1"
+isort = "^6.0.1"
+flake8 = "^7.3.0"
 
 [build-system]
 requires = ["poetry-core"]
